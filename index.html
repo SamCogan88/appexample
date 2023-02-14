@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <title>NCI App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script></head>
+<link href="jquery-ui.css" rel="stylesheet">
+<body>
+    <div data-role="page" id="home">
+ 
+        <div data-role="header">
+			<img src="logo.png" width="20%"/>
+            <center><span>NCI</span></center>
+        </div><!-- /header -->
+		
+        <div role="main" class="ui-content">
+           <div class="ui-grid-b">
+<div class="ui-block-a"><a href="https://scientia-publish-ncirl.azurewebsites.net/" class="ui-shadow ui-btn ui-corner-all">Timetables</a></div>
+<div class="ui-block-b"><a href="https://moodle.ncirl.ie" class="ui-shadow ui-btn ui-corner-all">Moodle</a></div>
+<div class="ui-block-c"><a href="https://www.office.com/apps?auth=2" class="ui-shadow ui-btn ui-corner-all">All Apps</a></div></div>
+</div>
+<form class="ui-grid-a">
+    <div class="ui-block-a">
+        <label for="grid-select-1" class="ui-hidden-accessible">Select</label>
+        <select id="grid-select-1" name="grid-select-1" data-shadow="false">
+            <option>Student Supports</option>
+            <option value="1"><a href="https://moodle.ncirl.ie">Occupational Therapy</a></option>
+            <option value="2"><a href="#info">Computing Support</a></option>
+            <option value="3">Learning Support</option>
+            <option value="4">Maths Support</option>
+        </select>
+    </div>
+    <div class="ui-block-b"><a href="#info" class="ui-shadow ui-btn ui-corner-all">Study Tips</a></div>
+
+</form>
+			<div data-role="footer">
+				<h4>&copy; National College of Ireland</h4>
+			</div><!-- /footer -->
+        </div>
+	<div data-role="page" id="info">
+		<div data-role="header" style="overflow:hidden;">
+			<h1>Support Services</h1>
+			   <a href="#home" data-icon="home" class="ui-btn-right">Home</a>
+			   <!-- /navbar -->
+		</div>
+		<h1>Support Services</h1>
+		<p>Students will have access to the full range of regular students supports, including Learning Support, Disability Support, Counselling, Financial Support, etc. Support will primarily be made available online or by phone, with some face-to-face meetings by appointment only. There has been no disruption to these services over the past months, and those students who have accessed these services in the past will be able to do so going forward. As circumstances allow, support services will transition back to campus in a phased way.
+		</p>
+		<p>As part of orientation, the team will outline how these services can be accessed to any new students joining NCI for the first time. The Student Support team understands that the transition to college can be challenging and we will ensure that students have full access to all of the supports they require, in a manner that works best for them. The college also offers specific supports to students registered with our disability service. This includes assistive technology, occupational therapy, and tailored learning support.
+		</p>
+		<p>If students are struggling with online learning, they should contact Student Support and we will do our utmost to provide you with access to the relevant support you may require. NCI recognises that online learning can prove challenging for some students and we will help you adjust to this new type of learning. There is a designated student support site and live access to student support tutors throughout the semester. Full-time students are supported by college counselling and subsidised medical services.
+		</p>
+		<div data-role="footer">
+			<h4>&copy; National College of Ireland</h4>
+		</div><!-- /footer -->
+	</div><!-- /content -->
+ 
+       
+ 
+    </div><!-- /page -->
+</body>
+</html>
